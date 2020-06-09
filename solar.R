@@ -1,5 +1,4 @@
 #Haritha Ramachandran
-#19200121
 
 library(randomForest)
 library(caret)
@@ -10,7 +9,7 @@ library(rpart)
 library(nnet)
 library(kernlab)
 
-set.seed(19200121)
+set.seed(192)
 
 solar <- read.csv("data_project_deepsolar.csv")
 dim(solar)
